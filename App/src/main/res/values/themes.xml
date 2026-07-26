@@ -1,0 +1,3 @@
+<resources>
+    <style name="Theme.MusicBrainzRenamer" parent="android:Theme.Material3.Light.NoActionBar" />
+</resources>
