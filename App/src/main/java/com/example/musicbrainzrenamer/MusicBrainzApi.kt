@@ -20,7 +20,7 @@ interface MusicBrainzApi {
             val client = OkHttpClient.Builder()
                 .addInterceptor { chain ->
                     val request = chain.request().newBuilder()
-                        .header("User-Agent", "MusicBrainzRenamer/1.0 (youremail@example.com)")
+                        .header("User-Agent", "MusicBrainzRenamer/1.0 (zavxoz234@gmail.com)")
                         .header("Accept", "application/json")
                         .build()
                     chain.proceed(request)
